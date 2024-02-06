@@ -108,7 +108,7 @@ s1.printDetails()
 //Classes in js
 class School
 {
-    // schoolName;
+    //  var schoolName;
     // name;
     constructor(schoolName,name)
     {
@@ -122,6 +122,10 @@ class School
 }
 const std1=new School('BIT','Thiru');
 std1.printSchoolName()
+
+
+
+
 //omitting constructor
 class Demo
 {
@@ -161,20 +165,20 @@ const car1=new Model('XUV700',2023);
 car1.printmodel()
 
 //Encapsulation
-class Empdetails
-{
-    // name
-    #sal;
-    constructor(name,#sal)
-    {
-        this.name=name;
-        this.#sal=#sal
-    }
-    printEmp()
-    {
-console.log(`I am ${this.name}.My salary is ${this.#sal}`)
-    }
-}
-const emp1=new Empdetails('Sugu',300000);
-emp1.printEmp()
+// class Empdetails
+// {
+//     // var name;
+//     #sal;
+//     constructor(name,#sal)
+//     {
+//         this.name=name;
+//         this.#sal=#sal
+//     }
+//     printEmp()
+//     {
+// console.log(`I am ${this.name}.My salary is ${this.#sal}`)
+//     }
+// }
+// const emp1=new Empdetails('Sugu',300000);
+// emp1.printEmp()
 
